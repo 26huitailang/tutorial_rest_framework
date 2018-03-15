@@ -1,0 +1,136 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+0001_initial.py	../snippets/migrations/0001_initial.py	1;"	kind:file	line:1
+ALLOWED_HOSTS	../tutorial_rest_framework/settings.py	/^ALLOWED_HOSTS = []$/;"	kind:variable	line:28
+AUTH_PASSWORD_VALIDATORS	../tutorial_rest_framework/settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	kind:variable	line:89
+AppConfig	../snippets/apps.py	/^from django.apps import AppConfig$/;"	kind:namespace	line:1
+BASE_DIR	../tutorial_rest_framework/settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	kind:variable	line:16
+DATABASES	../tutorial_rest_framework/settings.py	/^DATABASES = {$/;"	kind:variable	line:78
+DEBUG	../tutorial_rest_framework/settings.py	/^DEBUG = True$/;"	kind:variable	line:26
+HtmlFormatter	../snippets/models.py	/^from pygments.formatters.html import HtmlFormatter$/;"	kind:namespace	line:5
+INSTALLED_APPS	../tutorial_rest_framework/settings.py	/^INSTALLED_APPS = [$/;"	kind:variable	line:33
+IsOwnerOrReadOnly	../snippets/permissions.py	/^class IsOwnerOrReadOnly(permissions.BasePermission):$/;"	kind:class	line:4
+IsOwnerOrReadOnly	../snippets/views.py	/^from snippets.permissions import IsOwnerOrReadOnly$/;"	kind:namespace	line:7
+LANGUAGE_CHOICES	../snippets/models.py	/^LANGUAGE_CHOICES = sorted([(item[1][0], item[0]) for item in LEXERS])$/;"	kind:variable	line:11
+LANGUAGE_CHOICES	../snippets/serializers.py	/^from snippets.models import LANGUAGE_CHOICES, STYLE_CHOICES, Snippet$/;"	kind:namespace	line:2
+LANGUAGE_CODE	../tutorial_rest_framework/settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	kind:variable	line:108
+LEXERS	../snippets/models.py	/^LEXERS = [item for item in get_all_lexers() if item[1]]$/;"	kind:variable	line:10
+MIDDLEWARE	../tutorial_rest_framework/settings.py	/^MIDDLEWARE = [$/;"	kind:variable	line:44
+Meta	../snippets/models.py	/^    class Meta:$/;"	kind:class	line:25
+Meta	../snippets/serializers.py	/^    class Meta:$/;"	kind:class	line:17
+Meta	../snippets/serializers.py	/^    class Meta:$/;"	kind:class	line:9
+Migration	../snippets/migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+ROOT_URLCONF	../tutorial_rest_framework/settings.py	/^ROOT_URLCONF = 'tutorial_rest_framework.urls'$/;"	kind:variable	line:54
+SECRET_KEY	../tutorial_rest_framework/settings.py	/^SECRET_KEY = ')h%fi57tx1p(w+(0to-tndc)-r7#4ni-y*%+w$=dk-6k61r8rn'$/;"	kind:variable	line:23
+STATIC_URL	../tutorial_rest_framework/settings.py	/^STATIC_URL = '\/static\/'$/;"	kind:variable	line:122
+STYLE_CHOICES	../snippets/models.py	/^STYLE_CHOICES = sorted((item, item) for item in get_all_styles())$/;"	kind:variable	line:12
+STYLE_CHOICES	../snippets/serializers.py	/^from snippets.models import LANGUAGE_CHOICES, STYLE_CHOICES, Snippet$/;"	kind:namespace	line:2
+Snippet	../snippets/models.py	/^class Snippet(models.Model):$/;"	kind:class	line:15
+Snippet	../snippets/serializers.py	/^from snippets.models import LANGUAGE_CHOICES, STYLE_CHOICES, Snippet$/;"	kind:namespace	line:2
+Snippet	../snippets/views.py	/^from snippets.models import Snippet$/;"	kind:namespace	line:1
+SnippetDetail	../snippets/views.py	/^class SnippetDetail(generics.RetrieveUpdateDestroyAPIView):$/;"	kind:class	line:16
+SnippetList	../snippets/views.py	/^class SnippetList(generics.ListCreateAPIView):$/;"	kind:class	line:10
+SnippetSerializer	../snippets/serializers.py	/^class SnippetSerializer(serializers.ModelSerializer):$/;"	kind:class	line:6
+SnippetSerializer	../snippets/views.py	/^from snippets.serializers import SnippetSerializer, UserSerializer$/;"	kind:namespace	line:2
+SnippetsConfig	../snippets/apps.py	/^class SnippetsConfig(AppConfig):$/;"	kind:class	line:4
+TEMPLATES	../tutorial_rest_framework/settings.py	/^TEMPLATES = [$/;"	kind:variable	line:56
+TIME_ZONE	../tutorial_rest_framework/settings.py	/^TIME_ZONE = 'UTC'$/;"	kind:variable	line:110
+TestCase	../snippets/tests.py	/^from django.test import TestCase$/;"	kind:namespace	line:1
+USE_I18N	../tutorial_rest_framework/settings.py	/^USE_I18N = True$/;"	kind:variable	line:112
+USE_L10N	../tutorial_rest_framework/settings.py	/^USE_L10N = True$/;"	kind:variable	line:114
+USE_TZ	../tutorial_rest_framework/settings.py	/^USE_TZ = True$/;"	kind:variable	line:116
+User	../snippets/serializers.py	/^from django.contrib.auth.models import User$/;"	kind:namespace	line:3
+User	../snippets/views.py	/^from django.contrib.auth.models import User$/;"	kind:namespace	line:5
+UserDetail	../snippets/views.py	/^class UserDetail(generics.RetrieveAPIView):$/;"	kind:class	line:30
+UserList	../snippets/views.py	/^class UserList(generics.ListAPIView):$/;"	kind:class	line:25
+UserSerializer	../snippets/serializers.py	/^class UserSerializer(serializers.ModelSerializer):$/;"	kind:class	line:14
+UserSerializer	../snippets/views.py	/^from snippets.serializers import SnippetSerializer, UserSerializer$/;"	kind:namespace	line:2
+WSGI_APPLICATION	../tutorial_rest_framework/settings.py	/^WSGI_APPLICATION = 'tutorial_rest_framework.wsgi.application'$/;"	kind:variable	line:72
+__init__.py	../snippets/__init__.py	1;"	kind:file	line:1
+__init__.py	../snippets/migrations/__init__.py	1;"	kind:file	line:1
+__init__.py	../tutorial_rest_framework/__init__.py	1;"	kind:file	line:1
+admin	../snippets/admin.py	/^from django.contrib import admin$/;"	kind:namespace	line:1
+admin	../tutorial_rest_framework/urls.py	/^from django.contrib import admin$/;"	kind:namespace	line:16
+admin.py	../snippets/admin.py	1;"	kind:file	line:1
+application	../tutorial_rest_framework/wsgi.py	/^application = get_wsgi_application()$/;"	kind:variable	line:16
+apps.py	../snippets/apps.py	1;"	kind:file	line:1
+code	../snippets/models.py	/^    code = models.TextField()$/;"	kind:variable	line:18
+created	../snippets/models.py	/^    created = models.DateTimeField(auto_now_add=True)$/;"	kind:variable	line:16
+db	../snippets/migrations/0001_initial.py	/^import django.db.models.deletion$/;"	kind:namespace	line:5
+deletion	../snippets/migrations/0001_initial.py	/^import django.db.models.deletion$/;"	kind:namespace	line:5
+dependencies	../snippets/migrations/0001_initial.py	/^    dependencies = [$/;"	kind:variable	line:12
+django	../snippets/migrations/0001_initial.py	/^import django.db.models.deletion$/;"	kind:namespace	line:5
+execute_from_command_line	../manage.py	/^        from django.core.management import execute_from_command_line$/;"	kind:namespace	line:8
+fields	../snippets/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:19
+fields	../snippets/serializers.py	/^        fields = ('id', 'title', 'code', 'linenos', 'language', 'style', 'owner')$/;"	kind:variable	line:11
+fields	../snippets/serializers.py	/^        fields = ('id', 'username', 'snippets')$/;"	kind:variable	line:19
+format_suffix_patterns	../snippets/urls.py	/^from rest_framework.urlpatterns import format_suffix_patterns$/;"	kind:namespace	line:3
+generics	../snippets/views.py	/^from rest_framework import generics$/;"	kind:namespace	line:4
+get_all_lexers	../snippets/models.py	/^from pygments.lexers import get_all_lexers$/;"	kind:namespace	line:2
+get_all_styles	../snippets/models.py	/^from pygments.styles import get_all_styles$/;"	kind:namespace	line:3
+get_lexer_by_name	../snippets/models.py	/^from pygments.lexers import get_lexer_by_name$/;"	kind:namespace	line:4
+get_wsgi_application	../tutorial_rest_framework/wsgi.py	/^from django.core.wsgi import get_wsgi_application$/;"	kind:namespace	line:12
+has_object_permission	../snippets/permissions.py	/^    def has_object_permission(self, request, view, obj):$/;"	kind:member	line:9
+highlight	../snippets/models.py	/^from pygments import highlight$/;"	kind:namespace	line:6
+highlighted	../snippets/models.py	/^    highlighted = models.TextField()$/;"	kind:variable	line:23
+include	../tutorial_rest_framework/urls.py	/^from django.conf.urls import url, include$/;"	kind:namespace	line:18
+initial	../snippets/migrations/0001_initial.py	/^    initial = True$/;"	kind:variable	line:10
+language	../snippets/models.py	/^    language = models.CharField(choices=LANGUAGE_CHOICES, default='python', max_length=100)$/;"	kind:variable	line:20
+linenos	../snippets/models.py	/^    linenos = models.BooleanField(default=False)$/;"	kind:variable	line:19
+manage.py	../manage.py	1;"	kind:file	line:1
+migrations	../snippets/migrations/0001_initial.py	/^from django.db import migrations, models$/;"	kind:namespace	line:4
+mixins	../snippets/views.py	/^from rest_framework import mixins$/;"	kind:namespace	line:3
+model	../snippets/serializers.py	/^        model = Snippet$/;"	kind:variable	line:10
+model	../snippets/serializers.py	/^        model = User$/;"	kind:variable	line:18
+models	../snippets/migrations/0001_initial.py	/^from django.db import migrations, models$/;"	kind:namespace	line:4
+models	../snippets/migrations/0001_initial.py	/^import django.db.models.deletion$/;"	kind:namespace	line:5
+models	../snippets/models.py	/^from django.db import models$/;"	kind:namespace	line:1
+models.py	../snippets/models.py	1;"	kind:file	line:1
+name	../snippets/apps.py	/^    name = 'snippets'$/;"	kind:variable	line:5
+name	../snippets/migrations/0001_initial.py	/^            name='Snippet',$/;"	kind:variable	line:18
+operations	../snippets/migrations/0001_initial.py	/^    operations = [$/;"	kind:variable	line:16
+options	../snippets/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:30
+ordering	../snippets/models.py	/^        ordering = ('created',)$/;"	kind:variable	line:26
+os	../manage.py	/^import os$/;"	kind:namespace	line:2
+os	../tutorial_rest_framework/settings.py	/^import os$/;"	kind:namespace	line:13
+os	../tutorial_rest_framework/wsgi.py	/^import os$/;"	kind:namespace	line:10
+owner	../snippets/models.py	/^    owner = models.ForeignKey(('auth.User'), related_name='snippets', on_delete=models.CASCADE)$/;"	kind:variable	line:22
+owner	../snippets/serializers.py	/^    owner = serializers.ReadOnlyField(source='owner.username')$/;"	kind:variable	line:7
+path	../tutorial_rest_framework/urls.py	/^from django.urls import path$/;"	kind:namespace	line:17
+permission_classes	../snippets/views.py	/^    permission_classes = ($/;"	kind:variable	line:19
+permission_classes	../snippets/views.py	/^    permission_classes = (permissions.IsAuthenticatedOrReadOnly,)$/;"	kind:variable	line:13
+permissions	../snippets/permissions.py	/^from rest_framework import permissions$/;"	kind:namespace	line:1
+permissions	../snippets/views.py	/^from rest_framework import permissions$/;"	kind:namespace	line:6
+permissions.py	../snippets/permissions.py	1;"	kind:file	line:1
+queryset	../snippets/views.py	/^    queryset = Snippet.objects.all()$/;"	kind:variable	line:11
+queryset	../snippets/views.py	/^    queryset = Snippet.objects.all()$/;"	kind:variable	line:17
+queryset	../snippets/views.py	/^    queryset = User.objects.all()$/;"	kind:variable	line:26
+queryset	../snippets/views.py	/^    queryset = User.objects.all()$/;"	kind:variable	line:31
+save	../snippets/models.py	/^    def save(self, *args, **kwargs):$/;"	kind:member	line:28
+serializer_class	../snippets/views.py	/^    serializer_class = SnippetSerializer$/;"	kind:variable	line:12
+serializer_class	../snippets/views.py	/^    serializer_class = SnippetSerializer$/;"	kind:variable	line:18
+serializer_class	../snippets/views.py	/^    serializer_class = UserSerializer$/;"	kind:variable	line:27
+serializer_class	../snippets/views.py	/^    serializer_class = UserSerializer/;"	kind:variable	line:32
+serializers	../snippets/serializers.py	/^from rest_framework import serializers$/;"	kind:namespace	line:1
+serializers.py	../snippets/serializers.py	1;"	kind:file	line:1
+settings	../snippets/migrations/0001_initial.py	/^from django.conf import settings$/;"	kind:namespace	line:3
+settings.py	../tutorial_rest_framework/settings.py	1;"	kind:file	line:1
+snippets	../snippets/serializers.py	/^    snippets = serializers.PrimaryKeyRelatedField(many=True, queryset=Snippet.objects.all())$/;"	kind:variable	line:15
+style	../snippets/models.py	/^    style = models.CharField(choices=STYLE_CHOICES, default='friendly', max_length=100)$/;"	kind:variable	line:21
+sys	../manage.py	/^import sys$/;"	kind:namespace	line:3
+tests.py	../snippets/tests.py	1;"	kind:file	line:1
+title	../snippets/models.py	/^    title = models.CharField(max_length=100, blank=True, default='')$/;"	kind:variable	line:17
+url	../snippets/urls.py	/^from django.conf.urls import url$/;"	kind:namespace	line:1
+url	../tutorial_rest_framework/urls.py	/^from django.conf.urls import url, include$/;"	kind:namespace	line:18
+urlpatterns	../snippets/urls.py	/^urlpatterns = [$/;"	kind:variable	line:6
+urlpatterns	../snippets/urls.py	/^urlpatterns = format_suffix_patterns(urlpatterns)$/;"	kind:variable	line:13
+urlpatterns	../tutorial_rest_framework/urls.py	/^urlpatterns = [$/;"	kind:variable	line:21
+urls.py	../snippets/urls.py	1;"	kind:file	line:1
+urls.py	../tutorial_rest_framework/urls.py	1;"	kind:file	line:1
+views	../snippets/urls.py	/^from snippets import views$/;"	kind:namespace	line:2
+views.py	../snippets/views.py	1;"	kind:file	line:1
+wsgi.py	../tutorial_rest_framework/wsgi.py	1;"	kind:file	line:1
