@@ -1,7 +1,5 @@
 bower_components
 
-ti_zi/config/config.py
-ti_zi/coverage_html_report
 running/handle/*.pid
 running/supervisor/*.conf
 
@@ -12,8 +10,6 @@ venv*
 *.log.*
 .cache
 .coverage
-.qiniu_pythonsdk_hostscache.json
-celerybeat-schedule
-celerybeat-schedule.db
-celerybeat.pid
 *.sqlite3
+
+__pycache__
